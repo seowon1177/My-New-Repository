@@ -1,5 +1,11 @@
 #include <stdio.h>
 int main(){
-	printf("Hello, C-World!\n");
+	int num;
+	scanf("%d", &num);
+
+	for(int i = 0; i < n; i++){
+		printf("%3d", i + 1);
+	}
+
 	return 0;
 }
